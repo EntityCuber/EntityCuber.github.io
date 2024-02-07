@@ -33,11 +33,11 @@ img {
 /* responsive image size and grid container */
 @media screen and (min-width: 600px) {
     img {
-        width: 300px;
+        width: 400px;
     }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     }    
 }
 
